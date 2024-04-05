@@ -16,7 +16,7 @@ class TestPrimos(unittest.TestCase):
     
     def test_4(self):
         result = is_primo(4)
-        self.assertEqual(result, True)
+        self.assertEqual(result, False)
 
     def test_5(self):
         result = is_primo(5)
@@ -24,7 +24,7 @@ class TestPrimos(unittest.TestCase):
 
     def test_6(self):
         result = is_primo(6)
-        self.assertEqual(result, True)
+        self.assertEqual(result, False)
 
     def test_7(self):
         result = is_primo(7)
@@ -32,15 +32,15 @@ class TestPrimos(unittest.TestCase):
 
     def test_8(self):
         result = is_primo(8)
-        self.assertEqual(result, True)
+        self.assertEqual(result, False)
 
     def test_9(self):
         result = is_primo(9)
-        self.assertEqual(result, True)
+        self.assertEqual(result, False)
     
     def test_10(self):
         result = is_primo(10)
-        self.assertEqual(result, True)
+        self.assertEqual(result, False)
 
     def test_11(self):
         result = is_primo(11)
