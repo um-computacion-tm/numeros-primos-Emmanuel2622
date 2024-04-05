@@ -5,4 +5,3 @@ def is_primo(value):
             return False
         div += 1
     return True
-
