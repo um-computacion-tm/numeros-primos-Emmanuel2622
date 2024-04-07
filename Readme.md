@@ -21,7 +21,7 @@ El algoritmo funciona de la siguiente manera:
    - Si `value` no es divisible por `div`, se incrementa `div` en 1 y se continúa con la siguiente iteración del bucle.
 4. Si el bucle termina sin retornar `False`, significa que no se encontraron divisores distintos de 1 y `value`, por lo que el número es primo y la función retorna `True`.
 
-##Uso
+## Uso
 Aquí hay un ejemplo de cómo usar la función `is_primo`:
 
 ```python
@@ -35,5 +35,5 @@ else:
 >Este código verificará si el numero 11 es primo y, como resultado, imprimirá que 11 es un número primo.
 requisitos
 
-##Requisitos
+## Requisitos
 	Python 3.x
